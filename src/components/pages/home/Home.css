@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+	--primarna: #04052E;
+	--sekundarna: #165A6F;
+}
+
+body{
+	background: var(--primarna);
+	color: var(--sekundarna);
+}
+
+
+img{
+  max-width: 100%;
+}
+
+.container-fluid-primary {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.container-fluid-secundary {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+element.style {
+	margin-left: auto;
+}
+
+.colored-text p{
+	color: #04052E;
+}
+
+.home-page {
+	background-color: #9DD9D2;
+	padding: 30px 30px;
+	border-radius: 4px;
+}
+
+
+.home-page h2 a{
+	text-decoration: none;
+	color: #21243D;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.home-page .home-details, .home-page .home-details a{
+	font-size: 18px;
+	color: #21243D;
+	text-decoration: none;
+}

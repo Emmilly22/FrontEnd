@@ -1,0 +1,16 @@
+footer{
+    background-color: aqua;
+} 
+
+.icons {
+    color: blue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-center {
+    color: blue;
+}
+
